@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
   },
   taskWrapper: {
     paddingTop: 80,
-    paddinghorizontal: 20,
+    paddingHorizontal: 20,
   },
   sectionTitle: {
     fontSize: 24,
@@ -54,8 +54,32 @@ const styles = StyleSheet.create({
   items: {
     marginTop: 30,
   },
-  writeTaskWrapper: {},
-  input: {},
-  addWrapper: {},
+  writeTaskWrapper: {
+    position: "absolute",
+    bottom: 60,
+    width: "100%",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+  },
+  input: {
+    paddingVertical: 15,
+    width: 250,
+    paddingHorizontal: 15,
+    backgroundColor: "#fff",
+    borderColor: "#c0c0c0",
+    borderWidth: 1,
+    borderRadius: 60,
+  },
+  addWrapper: {
+    width: 60,
+    height: 60,
+    backgroundColor: "#fff",
+    borderRadius: 60,
+    justifyContent: "center",
+    alignItems: "center",
+    borderColor: "#c0c0c0",
+    borderWidth: 1,
+  },
   addText: {},
 });
