@@ -78,7 +78,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#E8EAED",
+    backgroundColor: "#d8dee9",
   },
   tasksWrapper: {
     paddingTop: 80,
@@ -87,6 +87,7 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 24,
     fontWeight: "bold",
+    color: "#4c566a",
   },
   items: {
     marginTop: 30,
@@ -103,7 +104,7 @@ const styles = StyleSheet.create({
     paddingVertical: 15,
     width: 250,
     paddingHorizontal: 15,
-    backgroundColor: "#fff",
+    backgroundColor: "#eceff4",
     borderColor: "#c0c0c0",
     borderWidth: 1,
     borderRadius: 60,
@@ -111,12 +112,14 @@ const styles = StyleSheet.create({
   addWrapper: {
     width: 60,
     height: 60,
-    backgroundColor: "#fff",
+    backgroundColor: "#eceff4",
     borderRadius: 60,
     justifyContent: "center",
     alignItems: "center",
     borderColor: "#c0c0c0",
     borderWidth: 1,
   },
-  addText: {},
+  addText: {
+    color: "#4c566a",
+  },
 });
