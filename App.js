@@ -10,6 +10,8 @@ export default function App() {
         <Text style={styles.sectionTitle}>Today's tasks</Text>
         <View style={styles.items}>
           {/* aqui é aonde as tarefas vao ficar */}
+          <Task text={"Task 1"} />
+          <Task text={"Task 2"} />
           <Task />
         </View>
       </View>
