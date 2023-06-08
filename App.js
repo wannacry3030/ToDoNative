@@ -37,7 +37,7 @@ export default function App() {
       >
         {/* Today's Tasks */}
         <View style={styles.tasksWrapper}>
-          <Text style={styles.sectionTitle}>Today's tasks</Text>
+          <Text style={styles.sectionTitle}>Suas Tarefas</Text>
           <View style={styles.items}>
             {/* This is where the tasks will go! */}
             {taskItems.map((item, index) => {
