@@ -1,5 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
+import Task from "./components/Task";
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
         <Text style={styles.sectionTitle}>Today's tasks</Text>
         <View style={styles.items}>
           {/* aqui é aonde as tarefas vao ficar */}
+          <Task />
         </View>
       </View>
     </View>
@@ -17,6 +19,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
+    padding: 10,
     flex: 1,
     backgroundColor: "#E8EAED",
   },
